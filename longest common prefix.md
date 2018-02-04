@@ -1,7 +1,8 @@
 ## 问题分析：
 求所有字符串的最长公共前缀，数组中所有字符串都有这个前缀
 ## 编码实现：
-```class Solution {
+```C++
+class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
         int n=strs.size();
